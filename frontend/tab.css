@@ -1,0 +1,171 @@
+@import url("font-awesome/css/font-awesome.css");
+@import url('mobile.css') screen;
+
+	 /***CSS for view on Tab**/ 
+
+	/** @media only screen and (min-width:700){ **/
+
+		body {
+			font-size: 120%;
+		
+		}  
+
+		.top-header{
+	
+			
+			
+		
+		}   
+
+		.log{ 
+			float:left;
+
+		} 
+
+		.nav{
+			width: 100%;
+		}
+		
+		.nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0px;
+			overflow: hidden;
+			background-color:rgb(197, 121, 21); 
+			opacity: 0.7;
+		  }
+		  
+		 .nav li {
+			float: left;
+		  }
+		  
+		  .nav li a {
+			display: block;
+			color: black;
+			text-align: center; 
+			margin: 20px 135px;
+			/**padding: 10px 137px;**/
+			text-decoration: none; 
+			
+		  } 
+		
+		  .nav li a:hover {
+			background-color:greenyellow;
+			text-decoration: none;
+		  } 
+
+		  h1{
+			text-align: center; 
+	  
+		} 
+
+		.works{
+			width: 100%;
+			
+		  }
+		
+		  .cub{ 
+			  
+			  text-align: center;
+		
+		
+		  } 
+
+		  .cub i{
+			  font-size:60px;
+		  } 
+
+		  .meal-stores{
+            
+		
+		
+		  }
+		
+		
+		  .pick{  
+
+			width:350px;
+			height: 400px;
+			float: left;
+			margin-left:20px;
+			
+			 
+		  } 
+		
+		  .sem{ 
+			 
+			   
+			   
+			   
+		  }
+		 
+		  .ven{
+			 
+		  } 
+		
+		  .book{
+			
+			
+		  }
+		
+		  .icon{
+			 
+			}   
+
+			.meal-pic{ 
+				display:center;
+				 color: greenyellow; 
+			}
+
+
+			.foot{
+				background-color: rgb(49, 48, 48);
+				height: 300px; 
+				
+				
+		
+			}
+		
+			.inner-foot{ 
+				max-width: 200px; 
+				height: 300px;
+				float: left; 
+				
+				 /**padding: 10px 150px; **/
+				 margin-left: 60px; 
+				 margin-top: 20px; 
+				 color: whitesmoke;
+				
+			
+			  } 
+			  .inner-foot h3{
+				border-bottom:2px solid greenyellow;
+				color: antiquewhite;
+			  } 
+			  
+			  .inner-foot ul{
+				list-style-type: none;
+			  }
+			  .inner-foot ul li a {
+				  text-decoration: none;
+				  color: whitesmoke;
+			  } 
+		
+			 .bottom{
+				 max-width: 100%;
+				 height: 60px;
+				 background-color: rgb(49, 48, 48);
+				 text-align: center;
+			 }
+		
+		
+			
+		
+		
+		
+
+
+	 
+
+
+	

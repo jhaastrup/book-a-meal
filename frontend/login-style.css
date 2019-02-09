@@ -1,0 +1,49 @@
+body {
+	font-size: 120%;
+	background-image:url("images/foodme.jpeg");
+	background-size: cover;
+	
+	
+	/**
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	position: relative;***/
+
+} 
+
+/**body::after{
+
+  content: "";
+  background: url(images/foodme.jpeg);
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+} 
+**/
+h1{
+text-align: center;
+color: burlywood;
+background-color: gray;
+border: 2px solid gray;
+	border-radius: 25px;
+
+} 
+
+.top{
+	background-color:whitesmoke; 
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px; 
+	color: black;
+	opacity: 0.8;
+	border: 2px solid whitesmoke;
+	border-radius: 25px; 
+
+}
+
