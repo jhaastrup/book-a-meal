@@ -296,10 +296,23 @@ float: right;
 	 }
 
 	 .explain{
-		 width:80%;
+		 width:90%;
 		 border: 4px solid rgb(248, 246, 244);
 		 box-shadow: 2px 3px #d3d0d0;
 		 margin-left: 40px;
+	 } 
+
+	 /***STYLING FOR THE ADD MEAL PAGE***/ 
+	 .new-meals{
+		 width:70px;
+		 margin-left: 10px;
+		 
+	 } 
+
+	 .new-meals .font{
+		 margin-left:600px;
+		 font-size: 2em;
+
 	 }
 	
 
