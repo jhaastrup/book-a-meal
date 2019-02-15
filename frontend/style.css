@@ -326,12 +326,9 @@ float: right;
 	
 	}  
 
-	.top-header{
+	.top-header{ 
 		
 
-		
-		
-	
 	}   
 
 	.log{ 
@@ -496,7 +493,8 @@ float: right;
 
 
 /***Screen size for phone***/
-@media only screen and (max-width:375px){
+@media only screen and (max-width:375px)
+{
 
 	
 body {
@@ -507,9 +505,7 @@ body {
 
 .top-header{ 
 
-	background-color: black;
-	
-	
+	background-color: black;	
 
 }  
 
@@ -525,7 +521,7 @@ float: right;
 
 .banner{
 	height:350px;
-	background-image: url(images/pasta.jpg);
+	/*background-image: url(images/pasta.jpg);*/
 	background-repeat: none;
 }   
 
