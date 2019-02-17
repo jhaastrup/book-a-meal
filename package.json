@@ -2,10 +2,12 @@
   "name": "book-a-meal",
   "version": "1.0.0",
   "description": "book-a-meal",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "start": "babel-node ./src/index.js",
     "start:dev": "nodemon --exec babel-node ./src/index.js",
+    "migrate": "sequelize db:migrate",
+    "unmigrate": "sequelize db:migrate:undo:all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +26,12 @@
   },
   "homepage": "https://github.com/jhaastrup/book-a-meal#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
