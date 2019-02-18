@@ -8,4 +8,9 @@ authRouter.post(
   AuthController.userSignup,
 );
 
+authRouter.post(
+  '/login',
+  AuthController.userLogin,
+);
+
 export default authRouter;
